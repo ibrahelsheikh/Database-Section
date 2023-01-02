@@ -4,7 +4,7 @@
  Database: from SECTION 5
  */
 
-USE SEC05;
+USE master;
 
 DROP TABLE Ships.Reserves;
 
@@ -14,8 +14,6 @@ DROP TABLE Ships.Boats;
 
 DROP SCHEMA Ships;
 
-USE master;
-
-DROP DATABASE SEC05;  --TODO : Fix this
+DROP DATABASE SEC05;
 
 ----  DONE  -----
